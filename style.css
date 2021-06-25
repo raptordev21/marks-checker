@@ -1,0 +1,35 @@
+.formbox2, .formbox3 {
+    display: none;
+}
+
+footer div {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.my-heading {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.to-the-right {
+    text-align: right;
+}
+
+.to-the-center {
+    text-align: center;
+}
+
+.margin2 {
+    margin-top: 2px;
+}
+
+.btn-center {
+    margin-left: 45%;
+}
+
+table {
+    max-width: 50%;
+    margin-left: 25%;
+}

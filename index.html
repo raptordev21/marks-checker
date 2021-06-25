@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <title>Marks Checker</title>
+</head>
+
+<body>
+    <div class="container1">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Marks Checker</a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    </ul>
+                    <div class="d-flex">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Candidate : Abhishek Kumar</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="formbox1">
+            <div class="container">
+                <p class="my-heading">Enter Test Data</p>
+                <form>
+                    <div class="row mb-3">
+                        <label for="totalmarks" class="col-sm-2 col-form-label">Total Marks</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="totalmarks">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="noq" class="col-sm-2 col-form-label">Number of Questions</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="noq">
+                        </div>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary btn-center next1">Next</button>
+                </form>
+            </div>
+        </div>
+        <div class="formbox2">
+            <div class="container">
+                <p class="my-heading">Enter Answers</p>
+                <div class="row">
+                    <div class="col to-the-right">
+                        Number
+                    </div>
+                    <div class="col to-the-center">
+                        Your Answers
+                    </div>
+                    <div class="col to-the-center">
+                        Actual Answers
+                    </div>
+                    <div class="col">
+
+                    </div>
+                </div>
+                <br>
+                <div class="insert-rows">
+
+                </div>
+                <br>
+                <button type="submit" class="btn btn-primary btn-center next2">Next</button>
+            </div>
+        </div>
+        <div class="formbox3">
+            <div class="container">
+                <p class="my-heading">Result</p>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Score</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-success">
+                            <th scope="row">Number of Correct Answers</th>
+                            <td class="right-ans">0</td>
+                        </tr>
+                        <tr class="table-success">
+                            <th scope="row">Correct Answers List</th>
+                            <td class="right-ans-list">0</td>
+                        </tr>
+                        <tr class="table-danger">
+                            <th scope="row">Number of Incorrect Answers</th>
+                            <td class="wrong-ans">0</td>
+                        </tr>
+                        <tr class="table-danger">
+                            <th scope="row">Incorrect Answers List</th>
+                            <td class="wrong-ans-list">0</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <th scope="row">Number of Unattempted Answers</th>
+                            <td class="empty-ans">0</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <th scope="row">Unattempted Answers List</th>
+                            <td class="empty-ans-list">0</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <th scope="row">Total Marks Obtained</th>
+                            <td><span class="marks-obtained">0</span> out of <span class="total-marks">0</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <footer>
+            <div>Created by Himanshu Choudhary</div>
+        </footer>
+    </div>
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
