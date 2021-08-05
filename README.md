@@ -6,8 +6,3 @@ Web application for calculating and checking, marks and answers respectively in 
 1. Enter total number of questions and click next
 1. Fill your answers and actual answers then click next
 1. View result with other details
-
----
-Css framework used : Bootstrap
-
-Languages used : Html Css JavaScript
